@@ -1,0 +1,56 @@
+#chef{
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+body{
+   background-image: url(images/download.jpg);
+}
+#chef_row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.chef_col:nth-child(3) #img {
+    width: 350px; 
+    height: 400px;
+    
+}
+
+.chef_col
+{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    
+}
+#img{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 11px solid grey;
+
+
+}
+
+@media screen and (max-width : 768px) {
+    #header{
+        position: absolute;
+    }
+    #mobile_menu{
+        display: block;
+    }
+    #navbar ul{ 
+        display: none;
+    }
+    html{
+        font-size: 95%;
+    }
+}

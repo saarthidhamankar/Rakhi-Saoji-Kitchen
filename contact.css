@@ -1,0 +1,145 @@
+
+#contact {
+    padding: 25px;
+    text-align: center;
+}
+body{
+   
+    background-image: url(images/contact\ us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 116vh;
+    background-position: center; 
+}
+
+#section {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact_row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 30px; 
+}
+
+
+.contact_col {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    font-size: larger;
+    gap: 15px;
+    width: 100%;
+    
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact_item {
+
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #292929;
+    gap: 10px;
+}
+
+.contact_item i {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.contact_item a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+#social a {
+    font-size: large;
+    color: rgb(237, 8, 161);
+    margin: 5px;
+}
+#social a:nth-child(1) {
+    color: blue; 
+}
+
+.contact_item a:hover,span:hover,#social:hover {
+    color: darkcyan;        
+    text-decoration: underline; 
+    transform: scale(1.05); 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.contact_col form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: paleturquoise;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.contact_col form h2 {
+    
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+}
+ 
+.contact_col input, .contact_col textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+.contact_col form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact_col form button:hover {
+    background-color: darkorange;
+}@media screen and (max-width : 768px){
+    #header{
+        position: absolute;
+    }
+    #mobile_menu{
+        display: block;
+    }
+    #navbar ul{
+        display: none;
+
+    }
+    html{
+        font-size: 95%;
+    }
+}
