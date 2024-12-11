@@ -2,6 +2,11 @@
 #menu {
     padding: 25px 0;
 }
+body{
+   background-image: url(images/download.jpg);
+   background-attachment: fixed;
+   
+}
 
 #section {
     padding: 25px 0;
@@ -21,7 +26,7 @@
 .menu_col {
     box-shadow: 11px 11px 7px 0px #bbb;
     border: 1px solid #fff;
-    background-color: #723d3d38;
+    background-color: #e6dfe7cf;
     margin: 0;
     padding: 10px;
     flex: 1;
@@ -77,6 +82,7 @@
         font-size: 1.5rem; 
     }
 }
+
 
 @media screen and (max-width: 480px) {
     html {
