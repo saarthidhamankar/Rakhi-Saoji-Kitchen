@@ -140,7 +140,7 @@ cursor: pointer;}
     html{ font-size: 95%;}
 }
 
-@media screen and (max-width:360px);
+@media screen and (max-width:360px){
 html{ font-size: 150%;}
-
+}
 
