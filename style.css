@@ -4,7 +4,7 @@
 
       @font-face{
             font-family: 'Comic Sans MS';
-            src: url("New Folder/comici.ttf");
+            src: url("../New folder/comici.ttf");
       }
 
      html{
