@@ -1,55 +1,61 @@
-
 #menu {
-    padding: 25px 0;
+    padding: 30px 0; 
 }
-body{
-   background-image: url(images/download.jpg);
-   background-attachment: fixed;
-   
+*{
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/download.jpg);
+    background-attachment: fixed;
 }
 
 #section {
-    padding: 25px 0;
+    padding: 30px 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem; 
     font-family: Verdana;
 }
 
 #menu_row {
     display: flex;
     justify-content: space-around;
-    padding: 0 50px;
-    gap: 20px;
-    flex-wrap: wrap; 
+    padding: 0 60px; 
+    gap: 25px;  
+    flex-wrap: wrap;
 }
 
 .menu_col {
-    box-shadow: 11px 11px 7px 0px #bbb;
+    box-shadow: 12px 12px 8px 0px #bbb;  
     border: 1px solid #fff;
     background-color: #e6dfe7cf;
     margin: 0;
-    padding: 10px;
+    padding: 15px; 
     flex: 1;
-    max-width: 300px; 
+    max-width: 350px;
 }
 
 .menu_col h2 {
     background-color: red;
     color: #fff;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
     font-family: cursive;
+    font-size: 2.2rem;  
 }
 
 .image {
-    width: 200px;
-    height: 200px;
+    width: 250px;  
+    height: 250px; 
     border-radius: 50%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid orange;
+    border: 3px solid orange;
+    padding: 10px; 
 }
 
 .image img {
@@ -65,13 +71,13 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 5px;
+    margin: 8px; 
 }
 
 
 @media screen and (max-width: 768px) {
     #menu_row {
-        padding: 0 10px;
+        padding: 0 15px;
     }
 
     .menu_col {
@@ -79,28 +85,27 @@ body{
     }
 
     #section {
-        font-size: 1.5rem; 
+        font-size: 2rem; 
     }
 }
 
-
 @media screen and (max-width: 480px) {
     html {
-        font-size: 90%;
+        font-size: 105%;
     }
 
     #menu_row {
         flex-direction: column; 
         padding: 0;
-        gap: 10px;
+        gap: 12px;  
     }
 
     .menu_col {
         max-width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 18px; 
     }
 
     #section {
-        font-size: 1.3rem; 
+        font-size: 1.7rem; 
     }
 }
